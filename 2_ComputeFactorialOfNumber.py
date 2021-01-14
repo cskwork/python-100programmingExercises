@@ -5,6 +5,7 @@ Hints: In case of input data being supplied to the question, it should be assume
 """
 
 def fact(x):
+	print(x)
     if x == 0:
         return 1
     return x * fact(x - 1)
